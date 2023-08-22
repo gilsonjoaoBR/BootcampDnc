@@ -229,3 +229,51 @@ footer .linha2 a:first-child{
 footer .linha2 a:hover{
     color: var(--cinza-hover);
 }
+/*code mobile */
+@media only screen and (max-width: 600px) {
+/* Menu de navegação principal */
+ #principal{
+    flex-direction: column;
+    height: auto;
+ } 
+ #menu{
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+ }
+ #menu a{
+    height: 50px;
+    align-items: center;
+ }
+ #principal button{
+    width: 100%;
+    margin: 0px;
+ }
+ /*section*/
+ section h1{
+    font-size: 30px;
+ }
+ section h2{
+    font-size: 28px;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+form{
+    width: 95%;
+    font-size: 20px;
+}
+.checkboxItens label{
+    font-size: 17px;
+}
+/*footer*/
+footer .linha1{
+    flex-direction: column;
+}
+footer .endereco{
+    width: 95%;
+    margin-bottom: 20px;
+}
+footer .linha2{
+    text-align: center;   
+}
+}
