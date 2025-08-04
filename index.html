@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,57 +13,57 @@
 <body>
     <nav id="principal">
         <div id="menu">
-            <a href="">Home</a>
-            <a href="">Ultimas Edições</a>
-            <a href="">Requisitos para participar</a>
+            <a href="#">Home</a>
+            <a href="#">Últimas Edições</a>
+            <a href="#">Requisitos para participar</a>
         </div>
         <button>Login</button>
     </nav>
 
     <section>
-            <header>
-                <h1>BOOTCAMP DNC</h1>
-                <h2>Esse será um evento exclusivo para todos os alunos<br> 
-                    da <b>DNC</b>, que querem <span class="invert">acelerar a carreira</span> com uma<br> 
-                    semana intensiva de conteúdo de mercado entre<br> 
-                    <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS</span>.</h2>
-            </header>
-            <form>
-                <div class="formGroup">
-                    <label>Nome</label>
-                    <input type="text" placeholder="Insira seu nome aqui">
-                </div>
-                <div class="formGroup">
-                    <label>Sobrenome</label>
-                    <input type="text" placeholder="Insira seu sobrenome aqui">
-                </div>
-                <div class="formGroup">
-                    <label>Área de Interesse</label>
-                     <div class="checkboxItens">
-                        <input type="checkbox" value="front">
-                        <label>Fronte-end</label>
+        <header>
+            <h1>BOOTCAMP DNC</h1>
+            <h2>Esse será um evento exclusivo para todos os alunos<br> 
+                da <b>DNC</b>, que querem <span class="invert">acelerar a carreira</span> com uma<br> 
+                semana intensiva de conteúdo de mercado entre<br> 
+                <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS</span>.</h2>
+        </header>
+        <form>
+            <div class="formGroup">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira seu nome aqui">
+            </div>
+            <div class="formGroup">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Insira seu sobrenome aqui">
+            </div>
+            <div class="formGroup">
+                <label>Área de Interesse</label>
+                <div class="checkboxItens">
+                    <input type="checkbox" name="area" id="front" value="front">
+                    <label for="front">Front-end</label>
 
-                        <input type="checkbox" value="Back">
-                        <label>Back-end</label>
-                        
-                        <input type="checkbox" value="Bd">
-                        <label>Banco de dados</label>
-                     </div>               
-                </div>
-                <div class="formGroup">
-                    <label>Email</label>
-                    <input type="text" placeholder="Insira seu Email aqui">
-                </div>
-                <div class="formGroup">
-                    <label>Telefone</label>
-                    <input type="text" placeholder="(99) 99999-9999)">
-                </div>
-                <div class="formGroup">
-                    <label>Insira uma frase criativa aqui:</label>
-                    <input type="text" placeholder="Qual frase criativa você gostaria de falar? ">
-                </div>
-                <input type="submit" value="Cadastrar">
-            </form>
+                    <input type="checkbox" name="area" id="back" value="back">
+                    <label for="back">Back-end</label>
+                    
+                    <input type="checkbox" name="area" id="bd" value="bd">
+                    <label for="bd">Banco de dados</label>
+                </div>               
+            </div>
+            <div class="formGroup">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Insira seu Email aqui">
+            </div>
+            <div class="formGroup">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+            </div>
+            <div class="formGroup">
+                <label for="frase">Insira uma frase criativa aqui:</label>
+                <input type="text" name="frase" id="frase" placeholder="Qual frase criativa você gostaria de falar?">
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
     </section>
 
     <footer>
@@ -70,19 +71,19 @@
             <nav>
                 <h5>Escola</h5>
                 <ul>
-                    <li><a href="">Formação em Tecnologia</a></li>
-                    <li><a href="">Formação em Marketing</a></li> 
-                    <li><a href="">Formação em Dados</a></li> 
-                    <li><a href="">Formação em Projetos Formação em Produto</a></li>  
+                    <li><a href="#">Formação em Tecnologia</a></li>
+                    <li><a href="#">Formação em Marketing</a></li> 
+                    <li><a href="#">Formação em Dados</a></li> 
+                    <li><a href="#">Formação em Projetos Formação em Produto</a></li>  
                 </ul>
             </nav>
             <nav>
                 <h5>Sobre a DNC</h5>
                 <ul>
-                    <li><a href="">História</a></li>
-                    <li><a href="">Missão e Valores</a></li> 
-                    <li><a href="">Trabalhe Conosco</a></li> 
-                    <li><a href="">Conteúdo Gratuito</a></li>    
+                    <li><a href="#">História</a></li>
+                    <li><a href="#">Missão e Valores</a></li> 
+                    <li><a href="#">Trabalhe Conosco</a></li> 
+                    <li><a href="#">Conteúdo Gratuito</a></li>    
                 </ul>
             </nav>
             <div class="endereco">
@@ -90,8 +91,8 @@
             </div>
         </div>
         <div class="linha2">
-            <a href="">Termos de Uso</a>
-            <a href="">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Política de Privacidade</a>
         </div>
     </footer>
 </body>
