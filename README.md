@@ -46,7 +46,7 @@ O layout se adapta a diferentes tamanhos de tela. No mobile:
 
 ## 🔗 Demonstração
 
-_(Você pode hospedar no [Vercel](https://vercel.com/) ou [Netlify](https://netlify.com) e inserir o link aqui)_
+https://relaxed-daffodil-605430.netlify.app/
 
 ## 📄 Licença
 
