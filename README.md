@@ -1,53 +1,59 @@
+# Bootcamp DNC — Projeto de Formação
 
-# Bootcamp DNC – Landing Page
+Landing page desenvolvida durante a formação em tecnologia da **Escola DNC**, com foco na prática de fundamentos de desenvolvimento front-end.
 
-Este projeto é uma landing page responsiva criada para divulgar o **Bootcamp DNC**, um evento voltado para alunos interessados em acelerar suas carreiras nas áreas de **Back-End, Front-End e Banco de Dados**.
+> **Status:** projeto acadêmico/histórico. Este repositório é mantido como registro da evolução técnica e não representa o padrão atual dos projetos profissionais do autor.
 
-## 🚀 Funcionalidades
+## Objetivo do projeto
 
-- Menu de navegação fixo no topo
-- Cabeçalho com apresentação do evento
-- Formulário de inscrição com campos personalizados
-- Rodapé institucional com informações da DNC
-- Layout totalmente responsivo para dispositivos móveis
+Construir uma landing page responsiva para divulgação de um bootcamp fictício, aplicando conceitos fundamentais de HTML e CSS em uma interface completa com navegação, conteúdo, formulário e rodapé.
 
-## 🛠️ Tecnologias Utilizadas
+## Conceitos praticados
+
+- Estruturação semântica com HTML5
+- Estilização com CSS3
+- Flexbox
+- Media queries e responsividade
+- Uso de Google Fonts
+- Organização de formulários
+- Publicação de uma página estática
+
+## Estrutura
+
+```text
+BootcampDnc/
+├── index.html        # Estrutura da página
+├── style.css         # Estilos e responsividade
+├── vercel.json       # Configuração de publicação
+└── README.md         # Documentação
+```
+
+## Como executar
+
+```bash
+git clone https://github.com/gilsonjoaoBR/BootcampDnc.git
+cd BootcampDnc
+```
+
+Depois, abra `index.html` em um navegador.
+
+## Tecnologias
 
 - HTML5
 - CSS3
-- Google Fonts (Inter)
-- Flexbox
-- Design Responsivo com Media Queries
+- Google Fonts
 
-## 📱 Layout Responsivo
+## Observações
 
-O layout se adapta a diferentes tamanhos de tela. No mobile:
-- O menu se reorganiza verticalmente
-- Fontes e botões se ajustam para melhor legibilidade
+O formulário presente na interface faz parte da composição visual do exercício e não deve ser interpretado como um sistema de cadastro em produção.
 
-## 📂 Como usar
+## Autor
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/gilsonjoaoBR/bootcamp-dnc-landingpage
-   ```
-2. Acesse a pasta:
-   ```bash
-   cd bootcamp-dnc-landingpage
-   ```
-3. Abra o arquivo `index.html` em qualquer navegador.
+**Gilson João da Silva**
 
-## ✅ Melhorias futuras
+- GitHub: [@gilsonjoaoBR](https://github.com/gilsonjoaoBR)
+- LinkedIn: [Gilson João](https://www.linkedin.com/in/gilson-jo%C3%A3o-6b775474/)
 
-- Conectar o formulário com backend ou ferramenta de captura (ex: Google Forms)
-- Incluir animações com JavaScript
-- Melhorar validações dos campos de formulário
-- Otimizar acessibilidade (teclado e leitores de tela)
+---
 
-## 🔗 Demonstração
-
-https://bootcampdncaula.netlify.app/
-
-## 📄 Licença
-
-Este projeto é de uso acadêmico e demonstração. Sinta-se livre para reutilizar e aprimorar.
+Este repositório integra meu histórico de aprendizado. Projetos atuais e soluções aplicadas estão destacados no [meu perfil do GitHub](https://github.com/gilsonjoaoBR).
