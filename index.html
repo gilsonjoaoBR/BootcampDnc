@@ -1,18 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>BootcampDNC</title>
+    <title>Bootcamp DNC — Projeto de Estudo</title>
 </head>
 <body>
+    <!-- Projeto acadêmico desenvolvido durante formação na Escola DNC. -->
     <nav id="principal">
         <div id="menu">
             <a href="#">Home</a>
@@ -25,12 +23,13 @@
     <section>
         <header>
             <h1>BOOTCAMP DNC</h1>
-            <h2>Esse será um evento exclusivo para todos os alunos<br> 
-                da <b>DNC</b>, que querem <span class="invert">acelerar a carreira</span> com uma<br> 
-                semana intensiva de conteúdo de mercado entre<br> 
+            <h2>Esse será um evento exclusivo para todos os alunos<br>
+                da <b>DNC</b>, que querem <span class="invert">acelerar a carreira</span> com uma<br>
+                semana intensiva de conteúdo de mercado entre<br>
                 <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS</span>.</h2>
         </header>
-        <form>
+
+        <form onsubmit="event.preventDefault(); alert('Formulário desativado: este é um projeto acadêmico histórico.');">
             <div class="formGroup">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome" placeholder="Insira seu nome aqui">
@@ -44,13 +43,11 @@
                 <div class="checkboxItens">
                     <input type="checkbox" name="area" id="front" value="front">
                     <label for="front">Front-end</label>
-
                     <input type="checkbox" name="area" id="back" value="back">
                     <label for="back">Back-end</label>
-                    
                     <input type="checkbox" name="area" id="bd" value="bd">
                     <label for="bd">Banco de dados</label>
-                </div>               
+                </div>
             </div>
             <div class="formGroup">
                 <label for="email">Email</label>
@@ -74,18 +71,18 @@
                 <h5>Escola</h5>
                 <ul>
                     <li><a href="#">Formação em Tecnologia</a></li>
-                    <li><a href="#">Formação em Marketing</a></li> 
-                    <li><a href="#">Formação em Dados</a></li> 
-                    <li><a href="#">Formação em Projetos Formação em Produto</a></li>  
+                    <li><a href="#">Formação em Marketing</a></li>
+                    <li><a href="#">Formação em Dados</a></li>
+                    <li><a href="#">Formação em Projetos Formação em Produto</a></li>
                 </ul>
             </nav>
             <nav>
                 <h5>Sobre a DNC</h5>
                 <ul>
                     <li><a href="#">História</a></li>
-                    <li><a href="#">Missão e Valores</a></li> 
-                    <li><a href="#">Trabalhe Conosco</a></li> 
-                    <li><a href="#">Conteúdo Gratuito</a></li>    
+                    <li><a href="#">Missão e Valores</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Conteúdo Gratuito</a></li>
                 </ul>
             </nav>
             <div class="endereco">
